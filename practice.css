@@ -6,32 +6,63 @@
 	box-sizing: border-box;
 }
 
-h1,a,p {
-	color: #848282;
-}
-
-header {
-	height: 400px;
-	background-image: url(img/mvのコピー.jpg);
-	background-size: cover;
-	background-position: bottom;
-}
-
 main {
-	width: 840px;
+	width: 960px;
 	margin:50px auto;
 }
 
-.header-title {
+.main-list {
+	padding-bottom: 50px;
+}
+
+.g-list,.w-list {
 	padding: 20px;
 }
 
-.main-content1 {
-	padding-bottom: 30px;
-	border-bottom: 1px solid #848282;
+.g-list {
+	background-color: #848282;
 }
 
-.main-content2 {
-	padding: 30px 0;
-	border-bottom: 1px solid #848282;
+.box:nth-child(1) {
+	background-color: orange;
+}
+.box:nth-child(2) {
+	background-color: yellow;
+}
+.box:nth-child(3) {
+	background-color: yellow;
+}
+.box:nth-child(4) {
+	background-color: yellow;
+}
+.box:nth-child(5) {
+	background-color: orange;
+}
+.box:nth-child(6) {
+	background-color: yellow;
+}
+.box:nth-child(7) {
+	background-color: yellow;
+}
+.box:nth-child(8) {
+	background-color: yellow;
+}
+.box:nth-child(9) {
+	background-color: orange;
+}
+
+
+.box {
+	width: 30%;
+	height: 200px;
+	float:left;
+	display: inline-block;
+}
+
+.box:nth-child(even) {
+	margin:0 5% 0 5%;
+}
+
+.box:nth-child(odd) {
+	margin: 0  0 40px 0;
 }
