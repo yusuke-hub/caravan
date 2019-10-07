@@ -6,3 +6,19 @@
 	box-sizing: border-box;
 }
 
+.flow {
+	width:960px;
+	margin:5-px auto;
+}
+
+.flow-content {
+	float: left;
+	width: 280px;
+	padding: 10px;
+	margin-right: 30px;
+	border:1px solid #fafafa;
+}
+
+.flow-content:nth-child(3) {
+	margin-right: 0;
+}
