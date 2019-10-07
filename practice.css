@@ -8,10 +8,11 @@
 
 .flow {
 	width:960px;
-	margin:5-px auto;
+	margin:50px auto;
 }
 
 .flow-content {
+	position: relative;
 	float: left;
 	width: 280px;
 	padding: 10px;
@@ -19,6 +20,22 @@
 	border:1px solid #fafafa;
 }
 
+.flow-headline {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: orange;
+	color: white;
+}
+
+.flow-content img {
+	width: 280px;
+	height: auto;
+	background-image: url(img/flow01.png)
+	background-size:cover;
+}
+
 .flow-content:nth-child(3) {
 	margin-right: 0;
 }
+
