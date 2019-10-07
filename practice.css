@@ -1,4 +1,4 @@
-＃8章演習
+＃9章演習
 * {
 	padding: 0;
 	margin:0;
@@ -6,63 +6,3 @@
 	box-sizing: border-box;
 }
 
-main {
-	width: 960px;
-	margin:50px auto;
-}
-
-.main-list {
-	padding-bottom: 50px;
-}
-
-.g-list,.w-list {
-	padding: 20px;
-}
-
-.g-list {
-	background-color: #848282;
-}
-
-.box:nth-child(1) {
-	background-color: orange;
-}
-.box:nth-child(2) {
-	background-color: yellow;
-}
-.box:nth-child(3) {
-	background-color: yellow;
-}
-.box:nth-child(4) {
-	background-color: yellow;
-}
-.box:nth-child(5) {
-	background-color: orange;
-}
-.box:nth-child(6) {
-	background-color: yellow;
-}
-.box:nth-child(7) {
-	background-color: yellow;
-}
-.box:nth-child(8) {
-	background-color: yellow;
-}
-.box:nth-child(9) {
-	background-color: orange;
-}
-
-
-.box {
-	width: 30%;
-	height: 200px;
-	float:left;
-	display: inline-block;
-}
-
-.box:nth-child(even) {
-	margin:0 5% 0 5%;
-}
-
-.box:nth-child(odd) {
-	margin: 0  0 40px 0;
-}
