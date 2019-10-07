@@ -9,3 +9,13 @@ header {
 nav {
 	text-align: center;
 }
+
+section {
+	width: 300px;
+	height:300px;
+	border:2px solid  #fa5803;
+}
+
+span {
+	color: #fa5893;
+}
